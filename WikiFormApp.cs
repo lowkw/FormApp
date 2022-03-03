@@ -315,27 +315,6 @@ namespace FormApp
         }
         #endregion Search
 
-        private void TextBoxName_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void TextBoxCategory_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void TextBoxStructure_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void TextBoxDefinition_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void TextBoxSearch_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void ListBoxArray_SelectedIndexChanged(object sender, EventArgs e)
         {
             TextBoxName.Text = wikiArray[ListBoxArray.SelectedIndex,0];
@@ -384,6 +363,8 @@ namespace FormApp
                     }
                 }
             }
+            TextBoxSearch.Clear();
+            ClearTextBox();
             DisplayArray();
         }
 

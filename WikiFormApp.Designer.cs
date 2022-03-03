@@ -87,7 +87,6 @@
             this.TextBoxName.Name = "TextBoxName";
             this.TextBoxName.Size = new System.Drawing.Size(270, 20);
             this.TextBoxName.TabIndex = 3;
-            this.TextBoxName.TextChanged += new System.EventHandler(this.TextBoxName_TextChanged);
             // 
             // TextBoxCategory
             // 
@@ -95,15 +94,13 @@
             this.TextBoxCategory.Name = "TextBoxCategory";
             this.TextBoxCategory.Size = new System.Drawing.Size(270, 20);
             this.TextBoxCategory.TabIndex = 4;
-            this.TextBoxCategory.TextChanged += new System.EventHandler(this.TextBoxCategory_TextChanged);
             // 
             // TextBoxStructure
             // 
             this.TextBoxStructure.Location = new System.Drawing.Point(70, 192);
             this.TextBoxStructure.Name = "TextBoxStructure";
             this.TextBoxStructure.Size = new System.Drawing.Size(270, 20);
-            this.TextBoxStructure.TabIndex = 5;
-            this.TextBoxStructure.TextChanged += new System.EventHandler(this.TextBoxStructure_TextChanged);
+            this.TextBoxStructure.TabIndex = 5;         
             // 
             // TextBoxDefinition
             // 
@@ -112,7 +109,6 @@
             this.TextBoxDefinition.Name = "TextBoxDefinition";
             this.TextBoxDefinition.Size = new System.Drawing.Size(270, 103);
             this.TextBoxDefinition.TabIndex = 6;
-            this.TextBoxDefinition.TextChanged += new System.EventHandler(this.TextBoxDefinition_TextChanged);
             // 
             // TextBoxSearch
             // 
@@ -121,7 +117,6 @@
             this.TextBoxSearch.Size = new System.Drawing.Size(173, 20);
             this.TextBoxSearch.TabIndex = 7;
             this.toolTip1.SetToolTip(this.TextBoxSearch, "Double click to reset SEARCH");
-            this.TextBoxSearch.TextChanged += new System.EventHandler(this.TextBoxSearch_TextChanged);
             this.TextBoxSearch.DoubleClick += new System.EventHandler(this.TextBoxSearch_DoubleClick);
             // 
             // ListBoxArray
